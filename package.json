@@ -4,9 +4,9 @@
         "pebble-clay": "^1.0.3"
     },
     "keywords": [],
-    "name": "geek-chic",
+    "name": "terminal",
     "pebble": {
-        "displayName": "Geek Chic Watchface",
+        "displayName": "terminal",
         "enableMultiJS": true,
         "messageKeys": {},
         "projectType": "native",
@@ -32,26 +32,19 @@
                     "file": "images/static-cursor.png",
                     "name": "STATIC_CURSOR",
                     "targetPlatforms": [
-                        "aplite"
+                        "aplite",
+                        "basalt"
                     ],
                     "type": "bitmap"
                 },
                 {
-                    "file": "fonts/Monaco.ttf",
-                    "name": "FONT_MONACO_14",
+                    "file": "fonts/Hack.ttf",
+                    "name": "FONT_HACK_12",
                     "targetPlatforms": [
                         "aplite",
                         "basalt"
                     ],
                     "type": "font"
-                },
-                {
-                    "file": "data/blinking-cursor.png",
-                    "name": "BLINKING_CURSOR",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "raw"
                 }
             ]
         },
